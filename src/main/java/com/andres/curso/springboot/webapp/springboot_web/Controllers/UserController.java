@@ -33,6 +33,7 @@ public class UserController {
                 new User("Juan", "Alonso", "anaga@gmail.com"),
                 new User("Ruben", "Medina","atka@gmail.com"),
                 new User("Alejo", "Lopera")
+
         );
         model.addAttribute("users",users);
         model.addAttribute("title", "Listado de usuarios");
